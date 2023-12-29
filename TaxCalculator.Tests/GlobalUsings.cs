@@ -1,0 +1,11 @@
+global using NUnit.Framework;
+global using Moq;
+global using MediatR;
+global using AutoMapper;
+global using TaxCalculator.Infrastructure.Interfaces;
+global using TaxCalculator.Infrastructure.Services.Factory;
+global using TaxCalculator.Infrastructure.Services;
+global using TaxCalculator.Application.Queries.PostalCode;
+global using TaxCalculator.Domain.Interfaces.Repositories;
+global using TaxCalculator.Models.Dto;
+global using TaxCalculator.Models.Entity;
